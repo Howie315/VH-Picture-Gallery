@@ -5,10 +5,14 @@ import ImageUpload from "../../ImageUpload/presentation/ImageUpload";
 const HomePage = () => {
 	return (
 		<div className="home-page">
-			<h1>Welcome to the Home Page</h1>
-			<p>This is the starting point of our awesome React application.</p>
+			<div className="home-page-title">VH Image Gallery</div>
 
-			<ImageUpload />
+			<div className="home-page-section">
+				<div className="home-page-subtitle">
+					
+				</div>
+			</div>
+			{/* <ImageUpload /> */}
 		</div>
 	);
 };

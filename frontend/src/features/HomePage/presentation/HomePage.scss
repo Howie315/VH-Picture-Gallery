@@ -1,14 +1,15 @@
 .home-page {
-    padding: 20px;
-    text-align: center;
+	padding: 20px;
 
-    h1 {
-        color: #333;
-        font-size: 2em;
-    }
+	.home-page-title {
+		color: #fbf8ed;
+		font-size: 45px;
+		font-family: "Author", sans-serif;
+		font-weight: 700;
+	}
 
-    p {
-        color: #666;
-        font-size: 1em;
-    }
+	p {
+		color: #666;
+		font-size: 1em;
+	}
 }

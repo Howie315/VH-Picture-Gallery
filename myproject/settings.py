@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'vh-gallery',
+    'vh_gallery',
 ]
 
 MIDDLEWARE = [

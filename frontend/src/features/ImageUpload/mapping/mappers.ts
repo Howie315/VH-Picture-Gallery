@@ -4,7 +4,7 @@ import { Image } from "../domain/image";
 export const mapImageEntityToImage = (imageEntity: ImageEntity): Image => {
 	return {
 		id: imageEntity.id,
-		url: imageEntity.imageURL,
-		type: imageEntity.galleryType,
+		imageURL: imageEntity.imageURL,
+		galleryType: imageEntity.galleryType,
 	};
 };

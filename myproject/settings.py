@@ -23,6 +23,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'frontend/build/static'),  # Change 'frontend' to your directory name
 ]
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
@@ -47,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'vh_gallery',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

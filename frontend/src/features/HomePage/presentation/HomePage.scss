@@ -55,4 +55,11 @@
 			}
 		}
 	}
+
+	.home-pic {
+		height: auto;
+		width: 80%;
+		justify-content: center;
+		background-color: black; /* Inherits background color from parent element */
+	}
 }

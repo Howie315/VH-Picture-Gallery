@@ -43,6 +43,7 @@ const HomePage = () => {
 			<ThemeProvider theme={theme}>
 				{showModal && <ImageUpload onClose={() => setShowModal(false)} />}
 			</ThemeProvider>
+			<img src={pic} alt="Home" className="home-pic" />
 		</div>
 	);
 };

@@ -1,0 +1,36 @@
+.image-upload-dialog {
+	.file-upload {
+		.file-input {
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0;
+			cursor: pointer;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.MuiDialogTitle-root {
+		color: #333; // Dark text for contrast
+		font-family: "Satoshi", sans-serif; // Using Satoshi font
+		font-weight: 600;
+	}
+
+	.MuiDialogContent-root {
+		font-family: "Satoshi", sans-serif;
+
+		input[type="file"] {
+			margin-top: 20px;
+		}
+	}
+
+	.MuiDialogActions-root {
+		padding: 8px 24px;
+
+		.MuiButton-root {
+			font-family: "Satoshi", sans-serif;
+			font-weight: 500;
+		}
+	}
+}
